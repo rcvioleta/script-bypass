@@ -1,3 +1,5 @@
-window.confirm = function() {
-	return true;
+!function() {
+	window.confirm = function() {
+		return true;
+	};
 };
